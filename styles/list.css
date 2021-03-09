@@ -3,6 +3,7 @@ body{
     width: 100vw;
     margin: 0px;
     background-color: #e0e0e0;  
+    font-family: Ubuntu,sans-serif;
 }
 .main-container{
     height: 100%;
@@ -10,9 +11,76 @@ body{
 }
 header,footer{
     background-color: rosybrown;
+    height: 50px;
+}
+header{
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
+header img{
+    height: 100%;
+    vertical-align: middle;
+}
+#login{
+    float: right;
+    line-height: 50px;
+    padding-right: 1em;
+    color: black;
+    text-decoration: none;
+}
+#content-div{
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+}
+#list-container{
+    margin-top: 10px;
+    text-align: center;
+}
+#list-container ul{
+    list-style-type: none;
+}
+#list-container ul li{
+    display: inline;
+    padding: 1em;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
 }
 .hotel-desc{
+    display: inline-block;
     margin:2%;
     background-color: rgb(132,136,139);
     width: 40%;
+}
+#map-view{
+    display: none;
+}
+footer{
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+#contact{
+    position: relative;
+    left: 0px;
+    line-height: 50px;
+}
+#contact a{
+    color: black;
+    text-decoration: none;
+}
+#social-media{
+    position: absolute;
+    right: 0;
+    bottom:0;
+    padding: 0.5em;
+}
+#copyright{
+    position: absolute;
+    left:45vw;
+    bottom: 10px;
+    font-size: 10px;
 }
